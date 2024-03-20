@@ -2,7 +2,7 @@ const express = require('express');
 const { MongoClient, ObjectId } = require('mongodb');
 const app = express();
 
-const con_string = "mongodb+srv://oasis:Dragon12@cluster0.utoumkd.mongodb.net/";
+const con_string = "";
 const client = new MongoClient(con_string);
 
 async function run() {
