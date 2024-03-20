@@ -2,7 +2,7 @@ const express = require('express');
 const { MongoClient } = require('mongodb');
 const app = express();
 
-const con_string = "";
+const con_string = ""; //enter mongodb string
 const client = new MongoClient(con_string);
 
 async function run() {
